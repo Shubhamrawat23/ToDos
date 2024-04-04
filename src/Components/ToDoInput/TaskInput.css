@@ -1,0 +1,106 @@
+#inputText {
+  border: 2px solid white;
+  background-color: black;
+  width: 40rem;
+  height: 3rem;
+  border-radius: 50px;
+  padding-left: 15px;
+  color: aliceblue;
+  position: relative;
+  top: 105px;
+  left: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#addTask {
+  color: whitesmoke;
+  border: 2px solid white;
+  background-color: black;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 50px;
+  position: relative;
+  top: 105px;
+  left: 55px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#addTask:hover {
+  transform: scale(110%);
+}
+
+#addTask:active {
+  background-color: white;
+  color: black;
+}
+
+#noTaskText {
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  position: relative;
+  top: 200px;
+  left: -50px;
+}
+
+
+
+/*---------------Media Query--------------*/
+
+
+@media screen and (max-width:768px) {
+  #inputText{
+    width: 25rem;
+    left: 10px;
+  }
+  #addTask{
+    left: 30px;
+  }
+}
+
+
+@media screen and (max-width:426px) {
+  #inputText{
+    width: 15rem;
+    left: -5px;
+  }
+  #addTask{
+    left: 10px;
+    width: 7rem;
+  }
+  #noTaskText{
+    left: -10px;
+  }
+}
+
+
+@media screen and (max-width:376px) {
+  #inputText{
+    width: 13rem;
+    height: 2rem;
+    left: -5px;
+  }
+  #addTask{
+    left: 10px;
+    width: 7rem;
+    height: 2rem;
+  }
+}
+
+
+@media screen and (max-width:321px) {
+  #inputText{
+    width: 12rem;
+    height: 2rem;
+    left: -5px;
+  }
+  #addTask{
+    left: 2px;
+    top: 120px;
+    width: 7rem;
+    height: 2rem;
+  }
+}
